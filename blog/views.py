@@ -3,13 +3,15 @@ from django.views.generic import ListView, DetailView
 from .models import Post
 
 
-class PostList(ListView):
+class Index(ListView):
     model = Post
     ordering = '-pk'
+    template_name = 'blog/index.html'
 
 
-class PostDetail(DetailView):
+class Post(DetailView):
     model = Post
+    template_name = 'blog/post.html'
 
 # def index(request):
 #     posts = Post.objects.all().order_by('-pk')
