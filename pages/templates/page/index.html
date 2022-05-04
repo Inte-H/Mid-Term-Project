@@ -1,39 +1,64 @@
 <!DOCTYPE html>
 {% load static %}
 <html lang="ko">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>자기소개</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="{% static 'blog/bootstrap/styles.css' %}" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Page Header-->
-        <header class="masthead" style="background-image: url('/static/images/cloverking.jpg')">
-            <div class="container position-relative px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <div class="site-heading">
-                            <h1>황인태</h1>
-                            <span class="subheading">95_32185063</span>
-                        </div>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>자기소개</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+        rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="{% static 'blog/bootstrap/styles.css' %}" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Page Header-->
+    <header class="masthead" style="background-image: url('/static/images/cloverking.jpg')">
+        <div class="container position-relative px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    <div class="site-heading">
+                        <h1>황인태</h1>
+                        <span class="subheading">
+                            소프트웨어학과<br>
+                            학번: 32185063<br>
+                        </span>
                     </div>
                 </div>
             </div>
-        </header>
-        <!-- Main Content-->
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="{% static 'pages/bootstrap/scripts.js' %}"></script>
-    </body>
+        </div>
+    </header>
+    <!-- Main Content-->
+    <div class="px-5">
+        <h3>자기소개</h3>
+        <p>안녕하세요 저는 소프트웨어학과 3학년 황인태입니다.<br>
+            18년도에 단국대에 들어와서 1년간 학교를 다니고, 군대를 갔다와서 작년에 복학했습니다.<br>
+            복학 후 코로나때문에 제대로 된 캠퍼스 생활을 하지 못해 아쉽지만 차차 상황이 나아지리란 기대를 하고 있습니다.<br>
+            제가 비록 3학년이지만 그렇게 많은 언어를 다뤄보지도 않았고, 아직 제대로 된 프로젝트 경험이 없는데 이 강의를 토대로 많은걸 얻어갔으면 하는 바람이 있습니다.<br>
+            한 학기동안 학생들을 위해 강의해주실 교수님께 미리 감사드립니다.</p>
+        <img src="/static/images/인사.jfif">
+        <p>제가 좋아하는 노래는 윤하의 혜성입니다.</p>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LuqRkCDTMBY"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="{% static 'pages/bootstrap/scripts.js' %}"></script>
+</body>
+
 </html>
